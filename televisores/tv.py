@@ -55,7 +55,7 @@ class TV:
         return
     
     def canalDown(self):
-        if(self._estado>1 and self._estado==True):
+        if(self._canal>1 and self._estado==True):
             self._canal = self._canal-1
         return
 
