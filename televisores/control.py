@@ -1,5 +1,5 @@
-from tv import TV
 
+from televisores.tv import TV
 
 class Control:
     def __init__(self):
@@ -16,7 +16,7 @@ class Control:
             self.tv.turnOn()
     
 
-    def turnDown(self):
+    def turnOff(self):
         if(self.tv.getEstado()==True):
             self.tv.turnOff()
     
