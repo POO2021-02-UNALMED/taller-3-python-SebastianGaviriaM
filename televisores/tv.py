@@ -68,10 +68,15 @@ class TV:
             self._volumen = self._volumen-1
 
 
+    
+        
 
 
     @classmethod
     def getNumTV(cls):
         return cls.numTV
 
+    @classmethod
+    def setNumTV(cls, numTV):
+        cls.numTV = numTV
 
